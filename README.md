@@ -47,11 +47,8 @@ To access this use `\c database-name`. or you can use this command `psql databse
 1. `def get(query)`: This function is for opening the desired database,execute the query and display the output.
 	* `connect(database= ”databasename”)` – This command is used to connect to our database.
 	* `cursor()` -It is used to fetch record row by row.
-2. `def top_three_articles()`: This function is used to find the most popular three articles of all time
-3. `def top_three_articles_authors()`: This function is used to find the most popular author of all time.
-4. `def errors_percentage_on_days()`: This function is used to find the day in which http requests are leads to errors more than 1%.
 ### To execute the tool:
-`$python loganalysis.py`
+`$python tool.py`
 It will connect to our database and performs the operation and output will be displayed as
 
 ### Output:
