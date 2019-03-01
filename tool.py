@@ -3,7 +3,7 @@ import psycopg2
 
 
 def main():
-    database = psycopg2.connect("dbname=pro1")
+    database = psycopg2.connect("dbname=news")
     # Trying to connect to our database
     cursor = database.cursor()
     #  Query to find the most popular three articles of all time
